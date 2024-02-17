@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import './Home.css';
 
 export default function Home() {
-  const apiKey = '3eb4e79d93msh37313a4eb025e19p14fa92jsn8327a90ee79a';
+  const apiKey = '';
   const date = '2024-02-17';
   const url = `https://api-football-v1.p.rapidapi.com/v3/fixtures?date=${date}`;
 
